@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'ShangoSansRegular';
+  src: url('ShangoSansRegular.eot');
+  src: url('ShangoSansRegular.eot?#iefix') format('embedded-opentype'),
+       url('ShangoSansRegular.woff2') format('woff2'),
+       url('ShangoSansRegular.woff') format('woff'),
+       url('ShangoSansRegular.ttf') format('truetype'),
+       url('ShangoSansRegular.svg#ShangoSansRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+

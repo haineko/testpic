@@ -1,0 +1,132 @@
+body {
+    background-image: url("../img/image-support.jpg");
+    background-color: #fff;
+    color: #3c3c39;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+}
+
+.left-block {
+    position: relative;
+    margin-left: 169px;
+    float: left;
+    width: 300px;
+    min-height: 450px;
+    margin-top: 137px;
+}
+
+.left-block::after {
+    left: 89%;
+    top: 11%;
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 251px;
+    background-image: url("../img/emoji/ok.png");
+    z-index: 20000;
+}
+
+.question {
+    margin-left: 40px;
+    width: 210px;
+    min-height: 27px;
+    margin-top: 40px;
+    letter-spacing: 1px;
+}
+
+.right-block {
+    float: right;
+    width: 864px;
+    min-height: 490px;
+    background-color: #eaeaea;
+    margin-right: -130px;
+    margin-top: 60px;
+    padding-top: 73px;
+    letter-spacing: 1px;
+}
+
+.list li {
+    margin-bottom: 17px;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Stem Medium";
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.list li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.chatBtn-sup {
+    margin-left: 39px;
+    display: block;
+    width: 190px;
+    height: 70px;
+    line-height: 180px;
+    font-size: 100%;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #51a8e6;
+    background-image: url(../img/Chatbtn.png);
+    text-align: center;
+    -webkit-box-shadow: 8px 8px 17px 0 rgba(0, 0, 0, 0.15);
+    box-shadow: 8px 8px 17px 0 rgba(0, 0, 0, 0.15);
+    margin-top: 3px;
+}
+
+.large-text {
+    letter-spacing: 1.3px;
+    font-size: 16px;
+    font-family: "Stem_regular";
+}
+
+.text {
+    margin-left: 68px;
+    margin-top: 21px;
+    font-size: 12px;
+    font-family: "Stem Regular";
+}
+
+.text-list{
+    margin-bottom: 19px;
+    margin-left: 37px;
+    padding: 0;
+    list-style: none;
+}
+
+.link-text{
+    cursor:pointer;
+    color:#3096fb;
+    font-family: "Stem Regular";
+    font-size: 12px;
+}
+
+.link-text-underline{
+    text-decoration: underline;
+}
+
+.norm-text-close{
+    margin-bottom: -13px;
+}
+
+.large-text-close{
+    margin-bottom: -19px;
+}
+
+.third-part{
+margin-top: 21px;
+}
+
+.norm-text-close2{
+    margin-top: -4px;
+    margin-bottom: -11px;
+}
+
+.norm-text-close3{
+    margin-bottom: 21px;
+}

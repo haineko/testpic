@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'StemHairline';
+    src: url('fonts/StemHairline.eot');
+    src: url('fonts/StemHairline.eot') format('embedded-opentype'),
+         url('fonts/StemHairline.woff2') format('woff2'),
+         url('fonts/StemHairline.woff') format('woff'),
+         url('fonts/StemHairline.ttf') format('truetype'),
+         url('fonts/StemHairline.svg#StemHairline') format('svg');
+}

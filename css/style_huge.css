@@ -1,0 +1,366 @@
+html{ font-size: 100%; }
+
+
+
+@media only screen and (min-width: 1440px){
+
+.wrap{ width: 80.63rem; margin: 0 auto; }
+
+/************************************************************
+  Common elements
+************************************************************/
+
+/* Stripe */
+
+.stripe h3{
+    font-size: 1.3rem;
+    line-height: 3rem;
+}
+.stripe .call{
+    top: 0.3rem;
+    left: 3.3rem;
+    height: 3.125rem;
+}
+.stripe .call > a{
+    line-height: 3.125rem;
+    letter-spacing: 0.03111rem;
+}
+/*.stripe .call > a:after{
+    top: -0.95rem;
+    left: 5.1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+}*/
+.stripe .call > div{
+    width: 24.38rem;
+    padding: 0.625rem 1.5rem;
+    height: 11.25rem;
+    top: 3.125rem;
+    left: 0px;
+    box-shadow: 0 0 2rem 0 rgba(0,0,0,0.2);
+}
+.stripe .call > div input{
+    height: 2.188rem;
+    line-height: 2.188rem;
+    padding: 0 0.3125rem;
+    margin: 0.3125rem 0;
+}
+.stripe .call > div a{
+    height: 2.375rem;
+    line-height: 2.375rem;
+    padding: 0 0.9375rem;
+    border-radius: 0.1875rem;
+    margin-top: 1.25rem;
+}
+.stripe .period{
+    right: 7.1rem;
+    top: 0.32rem;
+    letter-spacing: 0.1267779rem;
+    font-size: 0.7999999rem;
+    line-height: 3.15rem;
+}
+.stripe .logo{
+    top: 2.0rem;
+    left: 2.18rem;
+    height: 7.05rem;
+    width: 6.25rem;
+}
+.stripe .menu_open{
+    top: 3.1rem;
+    right: 7.18rem;
+    height: 3.2rem;
+    width: 3.2rem;
+    padding-top: 2.10rem;
+    padding-bottom: 3.05rem;
+    box-shadow: 0 0 2rem 0 rgba(0,0,0,0.1);
+}
+.stripe .menu_open span{
+    width: 1.5rem;
+    height: 0.1875rem;
+    margin-bottom: 0.1875rem;
+    margin-left: -0.75rem;
+}
+
+
+/* Fixed to bottom button */
+/*.actionBtn.fixed{
+    bottom: -1.563rem;
+    margin-left: -9.75rem;
+}
+.actionBtn{
+    width: 19.5rem;
+    height: 11.25rem;
+    line-height: 11.25rem;
+}
+.actionBtn a{
+    height: 2.938rem;
+    line-height: 3.063rem;
+    border: 0.125rem solid #fff;
+    border-radius: 2.5rem;
+    padding: 0 0.9375rem;
+}
+.actionBtn span{
+    top: 0.9375rem;
+    left: 0.1875rem;
+    width: 9.375rem;
+    height: 4.875rem;
+}
+*/
+
+
+/* nav block */
+.menu .main_wrap{
+    padding: 3.75rem;
+}
+.menu a.close{
+    top: 5rem;
+    right: 5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.menu ul ul{
+    margin: 0.3125rem 0;
+}
+.menu ul li{
+    margin-bottom: 0.1875rem;
+}
+.menu ul.menu_list > li > a{
+    letter-spacing: 0.125rem;
+}
+.menu ul.menu_list a:hover:after{
+    bottom: 0.0625rem;
+    height: 0.0625rem;
+}
+.menu ul ul{
+    position: absolute;
+    left: -10000px;
+}
+
+
+
+/************************************************************
+  Intro block
+************************************************************/
+
+/*.section.intro{
+    font-size: 100%;
+}
+.section.intro .wrap{
+    position: relative;
+}
+.section.intro .content{
+    top: 0;
+}
+.section.intro h1{
+    top: 70px;
+    text-shadow: 0.625rem -0.625rem 0.625rem rgba(0,0,0,0.1);
+}
+.section.intro .by_you{
+    float: left;
+}
+.section.intro .by_us{
+    float: right;
+}*/
+
+
+
+/************************************************************
+  Service block
+************************************************************/
+
+/*.section.service .wrap{
+    padding-top: 4.375rem;
+    padding-bottom: 5rem;
+}
+.section.service .service_wrap{
+    margin-top: 3.125rem;
+    margin-bottom: 1.25rem;
+}
+.section.service .service_wrap .service{
+    width: 26.87rem;
+    height: 15.94rem;
+}
+.section.service .service_wrap .service .icon{
+    height: 10rem;
+    width: 10rem;
+}
+.section.service .service_wrap .service h4{
+    margin: 0.9375rem 0 0 0;
+}
+.section.service .service_wrap .service p{
+    margin: 0.4375rem 0 0.25rem 0;
+}*/
+
+
+
+/************************************************************
+  About block
+************************************************************/
+/*
+.section.about .sectionTitle{
+    margin-bottom: 0.625rem;
+}
+
+.section.about .wrap{
+    padding-top: 4.375rem;}
+/*    padding-bottom: 5rem;*/
+
+/*
+.section.about .about_wrap{
+    width: 65.63rem;
+}
+.section.about .about_group{
+    width: 74.8rem;
+}
+
+.section.about .about_group .col_min{
+    width: 930px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 40px;
+}
+
+.section.about .about_group .col_max{
+    width: 30.1rem;
+}
+.section.about .about_group .col_min .about_block{
+    height: 19.38rem;
+    width: 19.38rem;
+}
+.section.about .about_group .col_max .about_block{
+  width: 490px;
+  height: 490px;
+}
+.about_block.title{
+    border: 0.625rem solid #fff;
+}
+.about_block.description p{
+    padding: 0;
+}*/
+
+/*.about_block.recall .layer .photo{
+    top: 3.75rem;
+    margin-left: -3.438rem;
+    height: 6.875rem;
+    width: 6.875rem;
+    border-radius: 6.875rem;
+    border: 0.625rem solid #fff;
+}
+.about_block.recall .layer .photo:before{
+    left: -10rem;
+    top: 2.5rem;
+    width: 8.438rem;
+    height: 8.438rem;
+}
+.about_block.recall .layer .name{
+    bottom: 6.875rem;
+}*/
+
+
+
+/************************************************************
+  Styles block
+************************************************************/
+/*
+.section.styles .sectionTitle{
+    margin-top: 4.375rem;
+}
+.section.styles .wrap{
+    padding-bottom: 5rem;
+}
+
+.section.styles .size_wrap,
+.section.styles .price_wrap{
+    width: 21.88rem;
+    padding-top: 1.25rem;
+}
+
+.section.styles .size_wrap ul{
+    margin: 0 0 0.9375rem 0;
+}
+.section.styles .size_wrap ul li a{
+    width: 1.25rem;
+    height: 1.25rem;
+    border-radius: 1.25rem;
+    margin: 0.625rem;
+
+    -webkit-box-shadow: 0.5rem -0.5rem 1.063rem 0 rgba(0,0,0,0.15);
+    box-shadow: 0.5rem -0.5rem 1.063rem 0 rgba(0,0,0,0.15);
+}
+
+/*.size_wrap .size{
+    width: 10.94rem;
+    height: 9.375rem;
+}
+.size_wrap .size.big{
+    height: 9.375rem;
+}
+.size_wrap .size.mid{
+    height: 7.5rem;
+}
+.size_wrap .size.sm{
+    height: 6.25rem;
+}
+.size_wrap .size .preview{
+    margin-top: 0.9375rem;
+    margin-bottom: 0.3125rem;
+
+    -webkit-box-shadow: 0.5rem -0.5rem 1.063rem 0 rgba(0,0,0,0.15);
+    box-shadow: 0.5rem -0.5rem 1.063rem 0 rgba(0,0,0,0.15);
+}
+.size_wrap .size .preview.sq_big{
+    width: 4.375rem; height: 4.375rem;
+}
+.size_wrap .size .preview.re_big{
+    width: 6.563rem; height: 4.375rem;
+}
+.size_wrap .size .preview.sq_mid{
+    width: 2.625rem; height: 2.625rem;
+}
+.size_wrap .size .preview.re_mid{
+    width: 3.938rem; height: 2.625rem;
+}
+.size_wrap .size .preview.sq_sm{
+    width: 1.75rem; height: 1.75rem;
+}
+.size_wrap .size .preview.re_sm{
+    width: 2.625rem; height: 1.75rem;
+}
+.size_wrap .size p{
+    margin: 0.1875rem 0;
+}
+
+.price_wrap .price{
+    width: 10.63rem;
+    height: 10.63rem;
+    border-radius: 10.63rem;
+    margin-top: 3.75rem;
+    padding: 3.75rem 0 0 2rem;
+}
+.price_wrap .price span{
+    top: 1.563rem;
+    left: 2rem;
+}
+.price_wrap .price span:after{
+    height: 0.1875rem;
+    top: 0.75rem;
+    left: -0.25rem;
+}
+.price_wrap .price .sticker{
+    left: 5rem;
+    top: 6.563rem;
+    width: 6.25rem;
+    height: 6.25rem;
+}
+.price_wrap > p{
+
+}
+*/
+
+
+/************************************************************
+  Contact block
+************************************************************/

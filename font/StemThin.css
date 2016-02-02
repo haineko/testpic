@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'StemThin';
+    src: url('fonts/StemThin.eot');
+    src: url('fonts/StemThin.eot') format('embedded-opentype'),
+         url('fonts/StemThin.woff2') format('woff2'),
+         url('fonts/StemThin.woff') format('woff'),
+         url('fonts/StemThin.ttf') format('truetype'),
+         url('fonts/StemThin.svg#StemThin') format('svg');
+}
